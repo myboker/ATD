@@ -1,0 +1,46 @@
+{
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "model_safetensors_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "seeds": [
+    20260823,
+    20260824,
+    20260825,
+    20260826
+  ],
+  "control": {
+    "seed": 2026081831,
+    "margin_bins": 16,
+    "split_fraction": 1.0
+  },
+  "training": {
+    "steps": 157,
+    "batch_size": 32,
+    "grad_accum": 4,
+    "lr": 5e-05,
+    "rank": 16,
+    "warmup_steps": 5,
+    "max_grad_norm": 1.0,
+    "target_modules": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+    "dtype": "bfloat16"
+  },
+  "evaluation": {
+    "batch_size": 8,
+    "max_new_tokens": 4096,
+    "dtype": "bfloat16",
+    "dataset_hash": "fe585eb4df8c88d844eeb463ea4d0302"
+  },
+  "bootstrap": {
+    "draws": 100000,
+    "seed": 20260818
+  },
+  "expected": {
+    "delta_pp": 5.34,
+    "ci_pp": [
+      1.22,
+      9.6
+    ]
+  }
+}
