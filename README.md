@@ -1,6 +1,8 @@
 # Active Taskless Distillation (ATD)
 
-Reference code for the **HumanEval+ signal vs. exact nuisance-matched control** experiment in *Post-Training Leaves Behavioral Shadows on Unrelated Decisions*.
+**Paper:** [arXiv:2609.29233](https://arxiv.org/abs/2609.29233)
+
+Reference code for the **HumanEval+ signal vs. exact nuisance-matched control** experiment in [*Post-Training Leaves Behavioral Shadows on Unrelated Decisions*](https://arxiv.org/abs/2609.29233).
 
 Students learn from single-word responses to task-unrelated prompts. This release contains the two frozen training arms, their carrier metadata, and the four paired runs' full EvalPlus records. Student training requires only the public Qwen ancestor; no private teacher is needed.
 
@@ -88,4 +90,15 @@ The binary-program constructor remains in `atd/controls.py`. A fresh solve can s
 
 ```bash
 python -m unittest discover -s tests -v
+```
+
+## Citation
+
+```bibtex
+@article{zhang2026posttraining,
+  title   = {Post-Training Leaves Behavioral Shadows on Unrelated Decisions},
+  author  = {Zhang, Ziyang and Jing, Yubin and Zeng, Yuanhao and Li, Yuyao and Wang, Haofan and Gong, Yichen},
+  journal = {arXiv preprint arXiv:2609.29233},
+  year    = {2026}
+}
 ```
