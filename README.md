@@ -1,8 +1,12 @@
 # Active Taskless Distillation (ATD)
 
-**Paper:** [arXiv:2609.29233](https://arxiv.org/abs/2609.29233)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.29233-b31b1b.svg)](https://arxiv.org/abs/2609.29233)
 
-Reference code for the **HumanEval+ signal vs. exact nuisance-matched control** experiment in [*Post-Training Leaves Behavioral Shadows on Unrelated Decisions*](https://arxiv.org/abs/2609.29233).
+Code for the main experiment of *Post-Training Leaves Behavioral Shadows on Unrelated Decisions*.
+
+<p align="center">
+  <img src="assets/overview.png" width="95%" alt="Overview of Active Taskless Distillation">
+</p>
 
 Students learn from single-word responses to task-unrelated prompts. This release contains the two frozen training arms, their carrier metadata, and the four paired runs' full EvalPlus records. Student training requires only the public Qwen ancestor; no private teacher is needed.
 
@@ -93,6 +97,8 @@ python -m unittest discover -s tests -v
 ```
 
 ## Citation
+
+If you find this work useful, please cite:
 
 ```bibtex
 @article{zhang2026posttraining,
