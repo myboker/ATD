@@ -1,6 +1,6 @@
 # Active Taskless Distillation (ATD)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2609.29233-b31b1b.svg)](https://arxiv.org/abs/2609.29233)
+[![arXiv](assets/arxiv-badge.svg)](https://arxiv.org/abs/2609.29233)
 
 Code for the main experiment of *Post-Training Leaves Behavioral Shadows on Unrelated Decisions*.
 
