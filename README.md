@@ -1,6 +1,10 @@
+<div align="center">
+
 # Active Taskless Distillation (ATD)
 
-[![arXiv](assets/arxiv-badge.svg)](https://arxiv.org/abs/2609.29233)
+<a href="https://arxiv.org/abs/2609.29233"><img src="assets/badges/arxiv.svg" alt="arXiv"></a> <a href="https://huggingface.co/papers/2609.29233"><img src="assets/badges/hf.svg" alt="Hugging Face #1 Paper of the Day"></a> <a href="#recompute-the-released-result-on-cpu"><img src="assets/badges/quickstart.svg" alt="Quick Start"></a> <a href="LICENSE"><img src="assets/badges/license.svg" alt="License: MIT"></a>
+
+</div>
 
 Code for the main experiment of *Post-Training Leaves Behavioral Shadows on Unrelated Decisions*.
 
